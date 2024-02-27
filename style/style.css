@@ -131,17 +131,18 @@ body * {
 @media only screen and (max-width: 950px) {
     .card-login{
         width: 85%;
+        
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .main-login{
         flex-direction: column;
         font-family: Montserrat;
 }
 
 .left-login > h1 {
-    font-size: 6vw;
+    font-size: 1.5em;
     margin: 30px;
     margin-top: 50vw;
     text-align: center;
