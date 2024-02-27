@@ -131,9 +131,13 @@ body * {
 @media only screen and (max-width: 600px) {
     .main-login{
         flex-direction: column;
+        font-family: Sora;
     }
 .left-login > h1 {
-    font-size: 5vw;
+    font-size: 6vw;
+    margin: 30px;
+    margin-top: 50vw;
+    text-align: center;
 }
 
 .left-login{
@@ -147,11 +151,13 @@ body * {
 }
 
 .left-login-image{
-    width: 50vw;
+    width: 60vw;
+    margin-bottom: 30px;
 }
 
 .card-login{
     width: 90%;
+    margin-bottom: 30px;
 }
 
 }
