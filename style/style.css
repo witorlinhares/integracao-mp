@@ -1,10 +1,11 @@
 body{
     margin: 0;
-    font-family: Sora;
+    font-family: Montserrat;
 }
 
 body * {
     box-sizing: border-box;
+    font-family: Montserrat;
 }
 
 /*TELA GERAL*/
@@ -135,7 +136,6 @@ body * {
 
 .left-login > h1 {
     font-size: 6vw;
-    font-family: sora;
     margin: 30px;
     margin-top: 50vw;
     text-align: center;
@@ -159,7 +159,6 @@ body * {
 .card-login{
     width: 90%;
     margin-bottom: 30px;
-    font-family: sora;
 }
 
 }
