@@ -159,6 +159,7 @@ body * {
 .card-login{
     width: 90%;
     margin-bottom: 30px;
+    -ms-zoom: none;
 }
 
 }
