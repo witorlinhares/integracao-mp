@@ -1,137 +1,160 @@
-
 * {
     font-family: Sora;
 }
 
-
-
-body {
-    margin: auto;
-
+body{
+    margin: 0;
 }
 
-/* geral */
+body * {
+    box-sizing: border-box;
+}
+
+/*TELA GERAL*/
 .main-login {
-     width: 100vw;
-     height: 100vh;
-     background: #ffffff;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* tela esquerda */
+/*LADO ESQUERDO*/
 .left-login {
-    width: 35vw;
+    width: 50vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    }
-
-/* tela direita     */
-.right-login{
-    width: 25vw;
-    height: 60vh;
 }
 
-/* titulo */
+/*TITULO LADO ESQUERDO*/
 .left-login > h1 {
-    font-weight: 500;
     color: #303030;
-    width: 35vw;
-    height: 100vh;
-    padding-right: 20vw;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    text-align: center;
-    margin: 10px;
-}  
+    font-size: 2.5vw;
+}
 
-/* imagem */
+/*IMAGEM*/
 .left-login-image{
     width: 30vw;
-    height: 100vh;
-    display: block;
-    padding-right: 20vw;
-    margin: 10%;
-  
- 
+
 }
 
-/* conteudo login */
+/*LADO DIREITO*/
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CAIXA LOGIN LADO DIREITO*/
 .card-login {
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px 40px;
-    background: #32c44a;
+    padding: 30px 35px;
+    background: #79D754;
     border-radius: 10px;
-    box-shadow: 0px 0px 3px #1d241f;
+    box-shadow: 0px 0px 4px #181818;
 }
 
-/* palavra login */
+/*H1 ACESSAR CONTA*/
 .card-login > h1 {
-    color: #ffffff;
+    color: #fff;
     font-weight: 400;
-    font-size: 25px;
-    margin: 10px;
+    margin: 0;
 }
 
-.textfield{
+/*LABEL / INPUT*/
+.textfield {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: 15px 0px;
+    margin: 10px 0px;
 }
 
-.textfield >input{
+.textfield > input {
     width: 100%;
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #ffffff;
+    background: #fff;
     color: #303030;
-    font-size: 12px;
+    font-size: 12;
     outline: none;
     box-sizing: border-box;
-
 }
 
-/* e-mail e senha */
-.textfield >label{
-    color: #ffffff;
-    margin: 3px;
+.textfield > label{
+    color: #fff;
+    margin-bottom: 10px;
 }
 
-.textfield >input::placeholder{
+.textfield > input::placeholder{
     color: #303030;
 }
 
-/* botao */
+/*BOTAO*/
 .btn-login{
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
-    border: 1px;
-    border-radius: 8px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #ffffff;
+    color: #fff;
     background: #303030;
-    text-transform: uppercase;
     cursor: pointer;
-    box-shadow: 0px 1px 3px #1d241f;
 }
 
-/* passar mouse em cima */
 .btn-login:hover{
     background: #464646;
-    color: #ffffff;
+    color: #fff;
+}
+
+/*RESPOSIVIDADE*/
+
+@media only screen and (max-width: 950px) {
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-login{
+        flex-direction: column;
+    }
+.left-login > h1 {
+    font-size: 5vw;
+}
+
+.left-login{
+    width: 100%;
+    height: auto;
+}
+
+.right-login{
+    width: 100%;
+    height: auto;
+}
+
+.left-login-image{
+    width: 50vw;
+}
+
+.card-login{
+    width: 90%;
+}
+
 }
