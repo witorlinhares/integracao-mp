@@ -7,9 +7,6 @@ body * {
     box-sizing: border-box;
 }
 
-.viewport {
-    font-family: Montserrat;
-}
 /*TELA GERAL*/
 .main-login {
     width: 100vw;
@@ -141,7 +138,6 @@ body * {
     
     .main-login{
         flex-direction: column;
-        font-family: Montserrat;
 }
 
 .left-login > h1 {
