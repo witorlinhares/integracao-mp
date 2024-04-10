@@ -1,0 +1,152 @@
+
+
+/*Format screen*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Almarai", sans-serif;
+    box-sizing: border-box;
+}
+
+/*Full screen*/
+.full-screen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+}
+
+.div-logo{
+    width: 33vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.logo-rolex{
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3em;
+}
+
+/*all div*/
+.one-div, .two-div, .three-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*div box*/
+.one-div-box, .two-div-box, .three-div-box {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #d5d5d5;
+    background: #fff;
+    box-shadow: 0px 10px 20px #d6d6d6;
+}
+
+.info-pay{
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.image{
+    width: 10vw;
+    margin-bottom: 30px;
+}
+
+.title{
+    color: #070707;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/*Button*/
+.button{
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    background: #105134;
+    cursor: pointer;
+}
+
+/*Efeito ao passar o mouse sob o botão*/
+.button:hover{
+    background: #196d47;
+    transition: all 0.5s ease-out;
+}
+
+
+.div-footer{
+    background: #105134;
+    margin: 0;
+    bottom: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer{
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    /* margin-top: 10px; */
+    padding: 12px;
+}
+
+/*Responsividade*/
+@media only screen and (max-width: 600px) {
+    
+    .general{
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+}
+
+    .left-div-title{
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0em 0em 1em;
+}
+
+    .left-div{
+        width: 100vw;
+        height: 100vh;
+        margin: -6em 0em;
+        padding: -5em;
+}
+
+    .right-div{
+        width: 100%;
+        height: auto;
+        margin: 0em 0em 4em;
+}
+
+    .left-div-image{
+        width: 80vw;
+        padding: 0;
+}
+
+    .form-box{
+        width: 90vw;
+}
+}
+
+/*Desenvolvido por Witor Linhares*/
