@@ -18,7 +18,7 @@
 /*header*/
 .div-header{
     width: 100vw;
-    padding: 2em 0 2em 0;
+    padding: 1em 0 1em 0;
     justify-content: center;
     display: flex;
 }
@@ -31,7 +31,6 @@
 /*main div clock*/
 .div-main{
     padding: 0 6em 0 6em;
-    margin: 2em 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,8 +58,7 @@
 
 /*image clock*/
 .image {
-    width: 6vw;
-    margin: 10px 0 10px 0;
+    width: 14vw;
 }
 
 /*title clock*/
