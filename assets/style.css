@@ -1,6 +1,5 @@
 
-
-/*Format screen*/
+/*format screen*/
 * {
     margin: 0;
     padding: 0;
@@ -8,15 +7,15 @@
     box-sizing: border-box;
 }
 
-/*Full screen*/
-.container{
+/*full screen*/
+.container {
     width: 100vw;
     height: 100vh;
     display: flex;
     background: #fff;
 }
 
-/*-------Todo o lado esquerdo-------*/
+/* all left side */
 .left-div {
     width: 60vw;
     background-image: url("img-background.jpg");
@@ -31,7 +30,7 @@
     align-items: center;
 }
 
-/*Title and button*/
+/*logo / title/ button*/
 .div-box {
     width: 80%;
     display: flex;
@@ -42,20 +41,22 @@
     margin-bottom: 70px;
 }
 
-.logo{
+/*logo*/
+.logo {
     width: 10vw;
     margin-bottom: 30px;
 }
 
-.title{
+/*title*/
+.title {
     color: #070707;
     font-weight: 300;
     text-align: center;
     margin-bottom: 25px;
 }
 
-/*Button*/
-.button{
+/*button*/
+.button {
     width: 40%;
     padding: 15px 15px;
     border: none;
@@ -67,13 +68,14 @@
     cursor: pointer;
 }
 
-/*Efeito ao passar o mouse sob o botão*/
-.button:hover{
+/*effect when mouse over button*/
+.button:hover {
     background: #196d47;
     transition: all 0.5s ease-out;
 }
 
-.div-footer{
+/*footer*/
+.div-footer {
     background: #105134;
     margin: 0;
     bottom: 0;
@@ -83,7 +85,7 @@
     justify-content: center;
 }
 
-.footer{
+.footer {
     color: #fff;
     font-weight: 300;
     font-size: 15px;

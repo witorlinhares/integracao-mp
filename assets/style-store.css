@@ -1,3 +1,4 @@
+
 /*format screen*/
 * {
     margin: 0;
@@ -14,24 +15,26 @@
     background: #f5f5f5;
 }
 
+/*header*/
 .div-header{
     width: 100vw;
     padding: 1em 0 1em 0;
     justify-content: center;
     display: flex;
- }
+}
 
+/*logo*/
 .logo{
     width: 5em;
 }
 
+/*main div clock*/
 .div-main{
     padding: 0 6em 0 6em;
     margin: 1.5em 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 /*div clock*/
