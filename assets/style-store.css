@@ -11,22 +11,12 @@
 .container {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
     align-items: center;
     background: #f5f5f5;
 }
 
-/*header*/
-.div-header{
-    width: 100vw;
-    padding: 1em 0 1em 0;
-    justify-content: center;
-    display: flex;
-}
-
-/*logo*/
-.logo{
-    width: 5em;
-}
 
 /*main div clock*/
 .div-main{
@@ -37,48 +27,54 @@
 }
 
 /*div clock*/
-.one-div-clock, .two-div-clock, .three-div-clock {
+.one-div {
+    display: flex;
+    width: 30vw;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+.two-div {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0 5px 0 5px;
-    padding: 5px;
-    border-radius: 5px;
-    border:  solid 1px #d5d5d5;
-    background: #fff;
 }
 
-/*payment via paid market, secure environment*/
-.info {
-    font-size: 12px;
-    margin: 5px 0 5px 0;
-    text-align: center;
+/*logo*/
+.logo{
+    width: 6em;
+    margin: 6px 0  6px 0;
 }
 
 /*image clock*/
 .image {
-    width: 14vw;
+    width: 20vw;
 }
 
 /*title clock*/
 .title {
     font-weight: 300;
-    text-align: center;
-    margin: 0 25px 0 25px;
+    margin: 6px 0  6px 0;
 }
 
+p{
+    margin: 6px 0  6px 0;
+
+}
+
+/*price*/
 .price{
     font-size: 25px;
     font-weight: 500;
-    margin: 5px;
+    margin: 6px 0  6px 0;
 }
 
 /*button purchase*/
 .button {
     width: 40%;
     padding: 10px;
-    margin: 8px;
+    margin: 6px 0  6px 0;
     border: none;
     border-radius: 3px;
     font-size: 19px;
@@ -92,6 +88,12 @@
 .button:hover {
     background: #196d47;
     transition: all 0.5s ease-out;
+}
+
+/*payment via paid market, secure environment*/
+.info {
+    font-size: 12px;
+    margin: 6px 0  6px 0;
 }
 
 /*footer*/
