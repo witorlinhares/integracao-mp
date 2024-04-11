@@ -18,7 +18,7 @@
 /*header*/
 .div-header{
     width: 100vw;
-    padding: 1em 0 1em 0;
+    padding: 2em 0 2em 0;
     justify-content: center;
     display: flex;
 }
@@ -31,7 +31,7 @@
 /*main div clock*/
 .div-main{
     padding: 0 6em 0 6em;
-    margin: 1.5em 0 0 0;
+    margin: 2em 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@
     justify-content: center;
     flex-direction: column;
     margin: 0 5px 0 5px;
-    padding: 0 0 15px 0;
+    padding: 5px;
     border-radius: 5px;
     border:  solid 1px #d5d5d5;
     background: #fff;
@@ -53,28 +53,34 @@
 /*payment via paid market, secure environment*/
 .info {
     font-size: 12px;
-    margin-top: 10px;
+    margin: 5px 0 5px 0;
     text-align: center;
 }
 
 /*image clock*/
 .image {
-    width: 10vw;
-    margin-bottom: 30px;
+    width: 6vw;
+    margin: 10px 0 10px 0;
 }
 
 /*title clock*/
 .title {
-    color: #070707;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 25px;
+    margin: 0 25px 0 25px;
+}
+
+.price{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 5px;
 }
 
 /*button purchase*/
 .button {
     width: 40%;
     padding: 10px;
+    margin: 8px;
     border: none;
     border-radius: 3px;
     font-size: 19px;
