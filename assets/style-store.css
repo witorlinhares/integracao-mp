@@ -1,6 +1,4 @@
-
-
-/*Format screen*/
+/*format screen*/
 * {
     margin: 0;
     padding: 0;
@@ -8,73 +6,70 @@
     box-sizing: border-box;
 }
 
-/*Full screen*/
-.full-screen {
+/*full screen*/
+.container {
     width: 100vw;
     height: 100vh;
-    display: flex;
     align-items: center;
     background: #f5f5f5;
 }
 
-.div-logo{
-    width: 33vw;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-}
-
-.logo-rolex{
-    width: 60px;
+.div-header{
+    width: 100vw;
+    padding: 1em 0 1em 0;
     justify-content: center;
-    align-items: center;
-    margin-left: 3em;
+    display: flex;
+ }
+
+.logo{
+    width: 5em;
 }
 
-/*all div*/
-.one-div, .two-div, .three-div{
+.div-main{
+    padding: 0 6em 0 6em;
+    margin: 1.5em 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-/*div box*/
-.one-div-box, .two-div-box, .three-div-box {
-    width: 80%;
+/*div clock*/
+.one-div-clock, .two-div-clock, .three-div-clock {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
+    margin: 0 5px 0 5px;
+    padding: 0 0 15px 0;
     border-radius: 5px;
-    border-color: #d5d5d5;
+    border:  solid 1px #d5d5d5;
     background: #fff;
-    box-shadow: 0px 10px 20px #d6d6d6;
 }
 
-.info-pay{
+/*payment via paid market, secure environment*/
+.info {
     font-size: 12px;
     margin-top: 10px;
     text-align: center;
 }
 
-.image{
+/*image clock*/
+.image {
     width: 10vw;
     margin-bottom: 30px;
 }
 
-.title{
+/*title clock*/
+.title {
     color: #070707;
     font-weight: 300;
     text-align: center;
     margin-bottom: 25px;
 }
 
-/*Button*/
-.button{
+/*button purchase*/
+.button {
     width: 40%;
     padding: 10px;
     border: none;
@@ -86,14 +81,14 @@
     cursor: pointer;
 }
 
-/*Efeito ao passar o mouse sob o botão*/
-.button:hover{
+/*effect when mouse over button*/
+.button:hover {
     background: #196d47;
     transition: all 0.5s ease-out;
 }
 
-
-.div-footer{
+/*footer*/
+.div-footer {
     background: #105134;
     margin: 0;
     bottom: 0;
@@ -103,50 +98,12 @@
     justify-content: center;
 }
 
-.footer{
-    color: #fff;
+.footer {
+    color: #d5d5d5;
     font-weight: 300;
+    font-size: 15px;
     text-align: center;
-    /* margin-top: 10px; */
     padding: 12px;
 }
 
-/*Responsividade*/
-@media only screen and (max-width: 600px) {
-    
-    .general{
-        width: 100vw;
-        height: auto;
-        flex-direction: column;
-}
-
-    .left-div-title{
-        font-size: 1.5em;
-        text-align: center;
-        margin: 0em 0em 1em;
-}
-
-    .left-div{
-        width: 100vw;
-        height: 100vh;
-        margin: -6em 0em;
-        padding: -5em;
-}
-
-    .right-div{
-        width: 100%;
-        height: auto;
-        margin: 0em 0em 4em;
-}
-
-    .left-div-image{
-        width: 80vw;
-        padding: 0;
-}
-
-    .form-box{
-        width: 90vw;
-}
-}
-
-/*Desenvolvido por Witor Linhares*/
+/*Developed by Witor Linhares*/

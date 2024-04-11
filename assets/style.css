@@ -9,7 +9,7 @@
 }
 
 /*Full screen*/
-.full-screen {
+.container{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -84,49 +84,11 @@
 }
 
 .footer{
-    color: #fff;
+    color: #d5d5d5;
     font-weight: 300;
+    font-size: 15px;
     text-align: center;
-    /* margin-top: 10px; */
     padding: 12px;
 }
 
-/*Responsividade*/
-@media only screen and (max-width: 600px) {
-    
-    .general{
-        width: 100vw;
-        height: auto;
-        flex-direction: column;
-}
-
-    .left-div-title{
-        font-size: 1.5em;
-        text-align: center;
-        margin: 0em 0em 1em;
-}
-
-    .left-div{
-        width: 100vw;
-        height: 100vh;
-        margin: -6em 0em;
-        padding: -5em;
-}
-
-    .right-div{
-        width: 100%;
-        height: auto;
-        margin: 0em 0em 4em;
-}
-
-    .left-div-image{
-        width: 80vw;
-        padding: 0;
-}
-
-    .form-box{
-        width: 90vw;
-}
-}
-
-/*Desenvolvido por Witor Linhares*/
+/*Developed by Witor Linhares*/
