@@ -1,0 +1,12 @@
+*{
+    font-family: "Onest", sans-serif;
+    /* display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center; */
+}
+
+.card-page{
+    width: 40vw;
+    margin: 0 auto;
+}

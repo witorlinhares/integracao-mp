@@ -18,7 +18,7 @@
 }
 
 
-/*main div clock*/
+/*main div*/
 .div-main{
     padding: 0 6em 0 6em;
     display: flex;
@@ -26,15 +26,16 @@
     align-items: center;
 }
 
-/*div clock*/
-.one-div {
+/*left div*/
+.left-div {
     display: flex;
     width: 30vw;
     align-items: left;
     justify-content: center;
     flex-direction: column;
 }
-.two-div {
+/*right div*/
+.right-div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,9 +59,9 @@
     margin: 6px 0  6px 0;
 }
 
+/*desciption clock*/
 p{
     margin: 6px 0  6px 0;
-
 }
 
 /*price*/
@@ -71,21 +72,23 @@ p{
 }
 
 /*button purchase*/
-.button {
+ a {
     width: 40%;
     padding: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #fff;
     margin: 6px 0  6px 0;
+    text-align: center;
+    text-decoration: none;
     border: none;
     border-radius: 3px;
-    font-size: 19px;
-    font-weight: 500;
-    color: #fff;
     background: #105134;
     cursor: pointer;
 }
 
 /*effect when mouse over button*/
-.button:hover {
+a:hover {
     background: #196d47;
     transition: all 0.5s ease-out;
 }
